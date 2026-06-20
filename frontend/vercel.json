@@ -1,5 +1,5 @@
 {
   "buildCommand": "npm run build",
-  "installCommand": "cd .. && npm install --include=optional",
+  "installCommand": "cd .. && npm install --include=optional --include=dev && cd frontend && npm install @tailwindcss/oxide-linux-x64-gnu@4.3.1 lightningcss-linux-x64-gnu@1.32.0 --no-save",
   "framework": "nextjs"
 }
