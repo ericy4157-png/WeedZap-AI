@@ -18,7 +18,7 @@ export function Header() {
             <Leaf className="h-5 w-5 text-primary" />
           </div>
           <div>
-            <h1 className="text-lg font-semibold tracking-tight">WeedSense AI</h1>
+            <h1 className="text-lg font-semibold tracking-tight">WeID AI</h1>
             <p className="text-xs text-muted-foreground">
               Smart weed ID &amp; herbicide guidance
             </p>

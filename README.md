@@ -1,4 +1,4 @@
-# WeedSense AI
+# WeID AI
 
 Full-stack weed identification and contextual herbicide recommendation platform. Upload a weed photo, provide field context (crop, location, growth stage), and receive ranked treatment guidance.
 

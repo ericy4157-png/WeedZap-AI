@@ -1,4 +1,4 @@
-"""FastAPI application for WeedSense ML inference."""
+"""FastAPI application for WeID AI ML inference."""
 
 from __future__ import annotations
 
@@ -11,7 +11,7 @@ from pydantic import BaseModel
 from ml.classifier import predict
 from ml.preprocess import preprocess
 
-app = FastAPI(title="WeedSense ML API", version="0.1.0")
+app = FastAPI(title="WeID AI ML API", version="0.1.0")
 
 frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000")
 allowed_origins = [

@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "WeedSense AI — Weed Identification & Herbicide Guidance",
+  title: "WeID AI — Weed Identification & Herbicide Guidance",
   description:
     "Upload a weed photo, identify the species, and get ranked herbicide recommendations tailored to your crop, location, and field conditions.",
 };
