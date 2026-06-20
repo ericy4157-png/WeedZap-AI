@@ -1,0 +1,59 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../frontend/node_modules/.prisma/client"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Weed {
+  id             String           @id @default(cuid())
+  commonName     String           @unique
+  scientificName String
+  family         String
+  lifeCycle      String
+  description    String
+  cropsAffected  String[]
+  badges         String[]
+  similarSpecies String[]
+  resistance     String?
+  timingNotes    String?
+  safety         String?
+  herbicideRecs  Recommendation[]
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+}
+
+model Herbicide {
+  id               String           @id @default(cuid())
+  name             String
+  activeIngredient String
+  safetyNotes      String?
+  recommendations  Recommendation[]
+  createdAt        DateTime         @default(now())
+  updatedAt        DateTime         @updatedAt
+
+  @@unique([name, activeIngredient])
+}
+
+model Recommendation {
+  id              String    @id @default(cuid())
+  weedId          String
+  herbicideId     String
+  weed            Weed      @relation(fields: [weedId], references: [id], onDelete: Cascade)
+  herbicide       Herbicide @relation(fields: [herbicideId], references: [id], onDelete: Cascade)
+  effectiveness   Int
+  rate            String
+  timing          String
+  growthStages    String[]
+  crops           String[]
+  locations       String[]
+  resistanceNotes String?
+  notes           String?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  @@unique([weedId, herbicideId, rate])
+}

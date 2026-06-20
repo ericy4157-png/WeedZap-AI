@@ -1,0 +1,23 @@
+{
+  "name": "database",
+  "version": "0.1.0",
+  "private": true,
+  "prisma": {
+    "seed": "tsx seed.ts"
+  },
+  "scripts": {
+    "generate": "prisma generate --schema=./schema.prisma",
+    "migrate": "prisma migrate dev --schema=./schema.prisma",
+    "push": "prisma db push --schema=./schema.prisma",
+    "seed": "tsx seed.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "prisma": "^5.22.0",
+    "tsx": "^4.22.4",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0"
+  }
+}

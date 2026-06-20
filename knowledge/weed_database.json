@@ -1,0 +1,402 @@
+{
+  "Palmer Amaranth": {
+    "scientific_name": "Amaranthus palmeri",
+    "family": "Amaranthaceae",
+    "life_cycle": "annual",
+    "crops_affected": ["corn", "soybean", "cotton", "sorghum"],
+    "description": "Highly competitive pigweed species with rapid growth and prolific seed production. Known for glyphosate resistance in many regions. Can reduce crop yields by over 70% if left uncontrolled.",
+    "badges": ["Broadleaf", "Invasive", "Glyphosate-Resistant"],
+    "similar_species": ["Waterhemp", "Redroot Pigweed", "Powell Amaranth"],
+    "resistance": "Widespread glyphosate resistance; confirmed resistance to ALS inhibitors and PPO inhibitors in multiple states.",
+    "timing_notes": "Most effective control at seedling stage (≤4 inches). Late-season control is difficult once plants exceed 6 inches.",
+    "safety": "Wear long sleeves, chemical-resistant gloves, and eye protection. Observe restricted entry intervals on product labels.",
+    "herbicides": [
+      {
+        "name": "Liberty",
+        "active_ingredient": "Glufosinate",
+        "rate": "32 oz/acre",
+        "effectiveness": 96,
+        "timing": "Early vegetative (≤4 inches)",
+        "growth_stages": ["seedling", "vegetative"],
+        "crops": ["corn", "cotton"],
+        "locations": ["US-IA", "US-NE", "US-KS", "US-US"],
+        "resistance": "Effective on glyphosate-resistant biotypes",
+        "notes": "Requires LibertyLink or glufosinate-tolerant crop"
+      },
+      {
+        "name": "Roundup PowerMax",
+        "active_ingredient": "Glyphosate",
+        "rate": "44 oz/acre",
+        "effectiveness": 45,
+        "timing": "Seedling stage only",
+        "growth_stages": ["seedling"],
+        "crops": ["corn", "soybean", "cotton"],
+        "locations": ["US-US"],
+        "resistance": "High resistance risk — verify susceptibility before use",
+        "notes": "Only effective on susceptible biotypes"
+      },
+      {
+        "name": "Engenia",
+        "active_ingredient": "Dicamba",
+        "rate": "16 oz/acre",
+        "effectiveness": 93,
+        "timing": "Early post-emergence",
+        "growth_stages": ["seedling", "vegetative"],
+        "crops": ["soybean", "cotton"],
+        "locations": ["US-IA", "US-NE", "US-MO", "US-US"],
+        "resistance": "Some PPO-resistant populations may survive",
+        "notes": "Follow state-specific dicamba application restrictions"
+      }
+    ]
+  },
+  "Waterhemp": {
+    "scientific_name": "Amaranthus tuberculatus",
+    "family": "Amaranthaceae",
+    "life_cycle": "annual",
+    "crops_affected": ["corn", "soybean", "cotton"],
+    "description": "Dioecious pigweed species with exceptional genetic diversity and herbicide resistance. Emerges throughout the growing season, making timing critical.",
+    "badges": ["Broadleaf", "Invasive", "Multi-Resistant"],
+    "similar_species": ["Palmer Amaranth", "Redroot Pigweed", "Smooth Pigweed"],
+    "resistance": "Resistance documented to glyphosate, ALS inhibitors, PPO inhibitors, and HPPD inhibitors.",
+    "timing_notes": "Apply when plants are ≤3 inches tall. Multiple emergence flushes require residual programs.",
+    "safety": "Use PPE per label. Avoid drift to sensitive crops and habitats.",
+    "herbicides": [
+      {
+        "name": "Dual II Magnum",
+        "active_ingredient": "S-Metolachlor",
+        "rate": "1.5 pt/acre",
+        "effectiveness": 88,
+        "timing": "Pre-emergence",
+        "growth_stages": ["seedling"],
+        "crops": ["corn", "soybean"],
+        "locations": ["US-IA", "US-IL", "US-IN", "US-US"],
+        "resistance": "No resistance to metolachlor reported",
+        "notes": "Best as part of layered residual program"
+      },
+      {
+        "name": "Flexstar GT",
+        "active_ingredient": "Fomesafen",
+        "rate": "1 pt/acre",
+        "effectiveness": 72,
+        "timing": "Post-emergence ≤4 inches",
+        "growth_stages": ["seedling", "vegetative"],
+        "crops": ["soybean"],
+        "locations": ["US-IA", "US-NE", "US-US"],
+        "resistance": "PPO-resistant populations common in Midwest",
+        "notes": "Scout for PPO resistance before application"
+      },
+      {
+        "name": "Callisto",
+        "active_ingredient": "Mesotrione",
+        "rate": "3 oz/acre",
+        "effectiveness": 85,
+        "timing": "Early post-emergence",
+        "growth_stages": ["seedling", "vegetative"],
+        "crops": ["corn"],
+        "locations": ["US-IA", "US-NE", "US-KS", "US-US"],
+        "resistance": "HPPD-resistant waterhemp confirmed in some areas",
+        "notes": "Use with atrazine for improved control"
+      }
+    ]
+  },
+  "Giant Ragweed": {
+    "scientific_name": "Ambrosia trifida",
+    "family": "Asteraceae",
+    "life_cycle": "annual",
+    "crops_affected": ["corn", "soybean", "wheat"],
+    "description": "Large-seeded broadleaf weed that can exceed 15 feet in height. Highly competitive in corn and soybean, especially in no-till systems.",
+    "badges": ["Broadleaf", "Competitive"],
+    "similar_species": ["Common Ragweed", "Sunflower"],
+    "resistance": "Glyphosate-resistant giant ragweed confirmed in multiple Midwest states.",
+    "timing_notes": "Control at ≤6 inches for best results. Early spring emergence.",
+    "safety": "Standard herbicide PPE required. Giant ragweed pollen is a major allergen.",
+    "herbicides": [
+      {
+        "name": "2,4-D Amine",
+        "active_ingredient": "2,4-D",
+        "rate": "1 pt/acre",
+        "effectiveness": 90,
+        "timing": "Early post-emergence",
+        "growth_stages": ["seedling", "vegetative"],
+        "crops": ["corn", "wheat"],
+        "locations": ["US-IA", "US-IL", "US-IN", "US-US"],
+        "resistance": "Generally effective; ALS-resistant biotypes may need alternative modes",
+        "notes": "Do not apply to soybean"
+      },
+      {
+        "name": "FirstRate",
+        "active_ingredient": "Cloransulam-methyl",
+        "rate": "0.6 oz/acre",
+        "effectiveness": 82,
+        "timing": "Post-emergence ≤4 inches",
+        "growth_stages": ["seedling", "vegetative"],
+        "crops": ["soybean"],
+        "locations": ["US-IA", "US-NE", "US-US"],
+        "resistance": "ALS-resistant populations present",
+        "notes": "Tank-mix with glyphosate for burndown"
+      },
+      {
+        "name": "Atrazine 4L",
+        "active_ingredient": "Atrazine",
+        "rate": "1 qt/acre",
+        "effectiveness": 78,
+        "timing": "Pre-emergence or early post",
+        "growth_stages": ["seedling"],
+        "crops": ["corn"],
+        "locations": ["US-IA", "US-IL", "US-US"],
+        "resistance": "Triazine-resistant biotypes in some areas",
+        "notes": "Restricted use in some watersheds"
+      }
+    ]
+  },
+  "Johnsongrass": {
+    "scientific_name": "Sorghum halepense",
+    "family": "Poaceae",
+    "life_cycle": "perennial",
+    "crops_affected": ["corn", "soybean", "cotton", "sorghum"],
+    "description": "Aggressive perennial grass spreading by rhizomes and seed. Difficult to control once established; regrows from rhizome fragments.",
+    "badges": ["Grass", "Perennial", "Rhizomatous"],
+    "similar_species": ["Shattercane", "Sudangrass", "Fall Panicum"],
+    "resistance": "Glyphosate-resistant johnsongrass documented in Arkansas and Mississippi.",
+    "timing_notes": "Target at 12–18 inches when actively growing. Fall rhizome translocation improves control.",
+    "safety": "Use respiratory protection when mixing. Avoid drift to non-target grasses.",
+    "herbicides": [
+      {
+        "name": "Roundup PowerMax",
+        "active_ingredient": "Glyphosate",
+        "rate": "32 oz/acre",
+        "effectiveness": 85,
+        "timing": "Mid-season active growth",
+        "growth_stages": ["vegetative", "mature"],
+        "crops": ["corn", "cotton"],
+        "locations": ["US-IA", "US-TX", "US-US"],
+        "resistance": "Resistant biotypes in southern US",
+        "notes": "Use in Roundup Ready crops only"
+      },
+      {
+        "name": "Select Max",
+        "active_ingredient": "Clethodim",
+        "rate": "16 oz/acre",
+        "effectiveness": 92,
+        "timing": "Post-emergence 4–12 inch grass",
+        "growth_stages": ["vegetative"],
+        "crops": ["soybean", "cotton"],
+        "locations": ["US-IA", "US-NE", "US-TX", "US-US"],
+        "resistance": "No widespread resistance",
+        "notes": "Add crop oil concentrate per label"
+      },
+      {
+        "name": "Accent Q",
+        "active_ingredient": "Nicosulfuron",
+        "rate": "0.67 oz/acre",
+        "effectiveness": 88,
+        "timing": "12–24 inch johnsongrass",
+        "growth_stages": ["vegetative", "mature"],
+        "crops": ["corn"],
+        "locations": ["US-IA", "US-IL", "US-US"],
+        "resistance": "ALS-resistant johnsongrass in some fields",
+        "notes": "Requires corn ≥12 inches with good crop safety"
+      }
+    ]
+  },
+  "Horseweed": {
+    "scientific_name": "Erigeron canadensis",
+    "family": "Asteraceae",
+    "life_cycle": "annual",
+    "crops_affected": ["soybean", "cotton", "corn"],
+    "description": "Also called marestail. Winter or summer annual that can reach 6+ feet. Glyphosate-resistant biotypes dominate many regions.",
+    "badges": ["Broadleaf", "Glyphosate-Resistant"],
+    "similar_species": ["Common Ragweed", "Giant Ragweed"],
+    "resistance": "Widespread glyphosate resistance; ALS and PPO resistance also documented.",
+    "timing_notes": "Fall or early spring burndown critical. Rosette stage (≤4 inches) is ideal.",
+    "safety": "Avoid inhalation of spray mist. Follow restricted entry intervals.",
+    "herbicides": [
+      {
+        "name": "Sharpen",
+        "active_ingredient": "Saflufenacil",
+        "rate": "1 oz/acre",
+        "effectiveness": 94,
+        "timing": "Fall or early spring burndown",
+        "growth_stages": ["seedling", "vegetative"],
+        "crops": ["soybean", "corn"],
+        "locations": ["US-IA", "US-IL", "US-IN", "US-US"],
+        "resistance": "Effective on glyphosate-resistant horseweed",
+        "notes": "Tank-mix with 2,4-D or glyphosate for burndown"
+      },
+      {
+        "name": "Engenia",
+        "active_ingredient": "Dicamba",
+        "rate": "16 oz/acre",
+        "effectiveness": 91,
+        "timing": "Pre-plant burndown",
+        "growth_stages": ["seedling", "vegetative"],
+        "crops": ["soybean", "cotton"],
+        "locations": ["US-IA", "US-MO", "US-US"],
+        "resistance": "Some ALS-resistant populations may need tank-mix",
+        "notes": "Observe planting intervals and wind restrictions"
+      },
+      {
+        "name": "2,4-D Ester",
+        "active_ingredient": "2,4-D",
+        "rate": "1 pt/acre",
+        "effectiveness": 87,
+        "timing": "Rosette stage burndown",
+        "growth_stages": ["seedling", "vegetative"],
+        "crops": ["corn", "wheat"],
+        "locations": ["US-US"],
+        "resistance": "Generally effective on most biotypes",
+        "notes": "Planting interval required before soybean"
+      }
+    ]
+  },
+  "Giant Foxtail": {
+    "scientific_name": "Setaria faberi",
+    "family": "Poaceae",
+    "life_cycle": "annual",
+    "crops_affected": ["corn", "soybean"],
+    "description": "Tufted annual grass common in corn and soybean fields. Emerges early and competes aggressively for nutrients and light.",
+    "badges": ["Grass", "Annual"],
+    "similar_species": ["Green Foxtail", "Yellow Foxtail", "Fall Panicum"],
+    "resistance": "Limited herbicide resistance reported compared to pigweeds.",
+    "timing_notes": "Control at ≤4 inches. Pre-emergence programs provide best consistency.",
+    "safety": "Standard agricultural herbicide PPE.",
+    "herbicides": [
+      {
+        "name": "Dual II Magnum",
+        "active_ingredient": "S-Metolachlor",
+        "rate": "1.5 pt/acre",
+        "effectiveness": 90,
+        "timing": "Pre-emergence",
+        "growth_stages": ["seedling"],
+        "crops": ["corn", "soybean"],
+        "locations": ["US-IA", "US-IL", "US-IN", "US-US"],
+        "resistance": "No known resistance",
+        "notes": "Activate with rainfall or irrigation"
+      },
+      {
+        "name": "Accent Q",
+        "active_ingredient": "Nicosulfuron",
+        "rate": "0.67 oz/acre",
+        "effectiveness": 86,
+        "timing": "Post-emergence 4–12 inches",
+        "growth_stages": ["seedling", "vegetative"],
+        "crops": ["corn"],
+        "locations": ["US-IA", "US-NE", "US-US"],
+        "resistance": "Generally susceptible",
+        "notes": "Apply when corn is 12–24 inches"
+      },
+      {
+        "name": "Select Max",
+        "active_ingredient": "Clethodim",
+        "rate": "12 oz/acre",
+        "effectiveness": 95,
+        "timing": "Post-emergence",
+        "growth_stages": ["seedling", "vegetative"],
+        "crops": ["soybean"],
+        "locations": ["US-IA", "US-IL", "US-US"],
+        "resistance": "No known resistance",
+        "notes": "Excellent grass control in soybean"
+      }
+    ]
+  },
+  "Common Lambsquarters": {
+    "scientific_name": "Chenopodium album",
+    "family": "Amaranthaceae",
+    "life_cycle": "annual",
+    "crops_affected": ["corn", "soybean", "wheat", "cotton"],
+    "description": "Fast-growing broadleaf weed with powdery-coated leaves. Produces large seed banks and emerges early in spring.",
+    "badges": ["Broadleaf", "Early Emerger"],
+    "similar_species": ["Redroot Pigweed", "Kochia"],
+    "resistance": "ALS-resistant lambsquarters confirmed in some regions.",
+    "timing_notes": "Most susceptible at seedling stage. Late applications less effective on mature plants.",
+    "safety": "Wear gloves and eye protection when handling herbicides.",
+    "herbicides": [
+      {
+        "name": "Atrazine 4L",
+        "active_ingredient": "Atrazine",
+        "rate": "1 qt/acre",
+        "effectiveness": 92,
+        "timing": "Pre-emergence",
+        "growth_stages": ["seedling"],
+        "crops": ["corn"],
+        "locations": ["US-IA", "US-IL", "US-US"],
+        "resistance": "Triazine-resistant biotypes rare",
+        "notes": "Foundation herbicide in corn weed control"
+      },
+      {
+        "name": "Classic",
+        "active_ingredient": "Chlorimuron-methyl",
+        "rate": "0.6 oz/acre",
+        "effectiveness": 88,
+        "timing": "Post-emergence ≤4 inches",
+        "growth_stages": ["seedling", "vegetative"],
+        "crops": ["soybean"],
+        "locations": ["US-IA", "US-NE", "US-US"],
+        "resistance": "ALS-resistant populations possible",
+        "notes": "Apply with crop oil concentrate"
+      },
+      {
+        "name": "Roundup PowerMax",
+        "active_ingredient": "Glyphosate",
+        "rate": "22 oz/acre",
+        "effectiveness": 95,
+        "timing": "Any growth stage",
+        "growth_stages": ["seedling", "vegetative", "mature"],
+        "crops": ["corn", "soybean", "cotton"],
+        "locations": ["US-US"],
+        "resistance": "Generally susceptible to glyphosate",
+        "notes": "Effective burndown option in RR crops"
+      }
+    ]
+  },
+  "Kochia": {
+    "scientific_name": "Bassia scoparia",
+    "family": "Amaranthaceae",
+    "life_cycle": "annual",
+    "crops_affected": ["wheat", "corn", "soybean", "sugar beet"],
+    "description": "Drought-tolerant tumbleweed that breaks off and spreads seeds. Glyphosate and ALS resistance widespread in western US.",
+    "badges": ["Broadleaf", "Drought-Tolerant", "Glyphosate-Resistant"],
+    "similar_species": ["Russian Thistle", "Common Lambsquarters"],
+    "resistance": "Glyphosate, ALS, and dicamba resistance documented in Great Plains.",
+    "timing_notes": "Control at ≤2 inches. Early spring application before tumble stage.",
+    "safety": "Avoid drift; kochia pollen can cause allergic reactions.",
+    "herbicides": [
+      {
+        "name": "Distinguish",
+        "active_ingredient": "Fluroxypyr",
+        "rate": "8 oz/acre",
+        "effectiveness": 91,
+        "timing": "Early rosette",
+        "growth_stages": ["seedling", "vegetative"],
+        "crops": ["wheat", "corn"],
+        "locations": ["US-KS", "US-NE", "US-CO", "US-US"],
+        "resistance": "Effective on glyphosate-resistant kochia",
+        "notes": "Good option in cereal crops"
+      },
+      {
+        "name": "Sharpen",
+        "active_ingredient": "Saflufenacil",
+        "rate": "1 oz/acre",
+        "effectiveness": 89,
+        "timing": "Pre-plant burndown",
+        "growth_stages": ["seedling", "vegetative"],
+        "crops": ["soybean", "corn"],
+        "locations": ["US-KS", "US-NE", "US-US"],
+        "resistance": "PPO mode effective on resistant biotypes",
+        "notes": "Tank-mix recommended for heavy infestations"
+      },
+      {
+        "name": "Starane Flex",
+        "active_ingredient": "Fluroxypyr",
+        "rate": "12 oz/acre",
+        "effectiveness": 85,
+        "timing": "Post-emergence",
+        "growth_stages": ["seedling", "vegetative"],
+        "crops": ["wheat"],
+        "locations": ["US-KS", "US-ND", "US-US"],
+        "resistance": "Synthetic auxin mode still effective in most areas",
+        "notes": "Apply before kochia exceeds 4 inches"
+      }
+    ]
+  }
+}
