@@ -18,6 +18,8 @@ allowed_origins = [
     frontend_url,
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    # Allow all Vercel domains
+    "*.vercel.app",
 ]
 
 app.add_middleware(
